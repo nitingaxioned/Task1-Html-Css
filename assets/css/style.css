@@ -214,9 +214,29 @@ li img:hover{
   margin-bottom: -20px;
 }
 
-/*============= Tab View ===========*/
+/*=================================
+  main styling ends here
+=================================*/
 
-@media only screen and (max-width: 1023px) {
+/*=================================
+  footer styling starts here
+=================================*/ 
+
+footer{
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  background: #333;
+  padding: 20px;
+}
+ /*=================================
+  footer styling ends here
+=================================*/ 
+
+/*media query starts*/
+/*media query for 995px starts here*/
+
+@media only screen and (max-width: 995px) {
   .banner{
     padding: 60px 20px;
   }
@@ -244,7 +264,30 @@ li img:hover{
     display: flex;
     justify-content: center;
   }
-  
+  header{
+    padding-top: 25px;
+  }
+  header p,h1{
+    margin: 20px;
+  }
+  header ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: rgba(0,0,0, 0.75);
+  }
+  header li{
+    width: 100%;
+    margin: auto;
+    border-top: 2px solid #333;
+  }
+  header li a{
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  footer{
+    font-size: 15px;
+  }
 }
 /*============= Low end Mobile view ===========*/
 
@@ -256,30 +299,3 @@ li img:hover{
     width: 50%;
    }
 }
-
-/*=================================
-  main styling ends here
-=================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-footer{
-  text-align: center;
-  font-size: 20px;
-  color: #fff;
-  background: #333;
-  padding: 20px;
-}
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
