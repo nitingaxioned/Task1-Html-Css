@@ -214,6 +214,49 @@ li img:hover{
   margin-bottom: -20px;
 }
 
+/*============= Tab View ===========*/
+
+@media only screen and (max-width: 1023px) {
+  .banner{
+    padding: 60px 20px;
+  }
+  .welcome ul li{
+    margin: 1%;
+  }
+}
+
+/*============= Mobile view ===========*/
+
+@media only screen and (max-width: 750px) {
+  .welcome ul li{
+    width: 45%;
+    margin: 0.5%;
+  }
+  .banner{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .banner img{
+   width: 35%;
+  }
+  .banner div:first-child{
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+/*============= Low end Mobile view ===========*/
+
+@media only screen and (max-width: 480px) {
+  .welcome ul li{
+    width: 98%;
+  }
+  .banner img{
+    width: 50%;
+   }
+}
+
 /*=================================
   main styling ends here
 =================================*/
