@@ -222,12 +222,13 @@ li img:hover{
   footer styling starts here
 =================================*/ 
 
-
-
-
-
-
-
+footer{
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  background: #333;
+  padding: 20px;
+}
  /*=================================
   footer styling ends here
 =================================*/ 
