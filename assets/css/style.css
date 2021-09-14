@@ -289,6 +289,7 @@ footer{
     display: block;
     position: relative;
     left: 45%;
+    width: 23px;
   }
   header li a{
     font-size: 20px;
